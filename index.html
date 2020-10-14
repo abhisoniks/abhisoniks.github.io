@@ -79,21 +79,28 @@
                      <div class="resume-timeline-item-desc">
                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Major Projects:</h4>
                        <ul>
-                         <li><a href= "https://docs.google.com/presentation/d/1lXlE_tvGdB0d22_8zrj550fc7nKumvl_QHeN0mwNvrw/edit?usp=sharing">Warden:</a>
-                            An IaC Golang tool to manage company’s critical AWS resources in a versioned and automated environment by codifying the AWS resources into configurations.
+                         <li><a href="#">Jenkins Infrastructure Revamp:</a>
+                           Migration of Build & Bake automation to Kubernetes cluster moving away from standard EC2 machines. Efforts mainly involved dockerfiles creation for all the packages. Project decentralised the build ownershipfrom Ops to respective teams owning the packages resulting in drastic reduction in on-call issues.
                           </li>
-                          <li><a href="#">Cross Account Bucket Access:</a>
-                          Implementation of Golang, Jenkins based tool to grant temporary, auditable cross account S3 bucket access to an IAM role
+                          <li><a href="#">Version Controlled Jenkins Set-up:</a>
+                          Jenkins infrastructure set-up in automated and versioned controlled fashion using Ansible playbooks, Groovy scripts and terraform configurations. It helped the team in cloning any number of Jenkins server from the existing Jenkins infrastructure with minimal manual interference.
                           </li>
-                         <li><a href="#">AWS Single Sign On:</a>
-                          Redesigned company wide AWS access leveraging AWS Single Sign-on. Efforts involve configuring fine grained roles for SSO, clean-up of IAM users and provision of a wrapper over aws-cli to authenticatea user against Okta and using SAML assertion to retrieve temporary STS credentials from AWS.
+                         <li><a href="#">Centralised Management and governance for AWS Accounts:</a>
+                          Management of around 30 AWS accounts including centralised account creation using Control Tower, centralised billing using AWS Organization, team wise IAM role based access provisioning using Single-Sign-On and centralized governance using Service Control Policies.
                           </li>
-                         <li><a href="#">AWS Tagging:</a>
-                          Development of lambda based tool to examine tags of newly created resources as per company tagging guidelines to track AWS cost at more granular level
+                         <li><a href="#">Cost Saving Initiatives:</a>
+                          Helped the organization in cost-optimization initiatives during Corona pandemic saving around 50k\$ in less than a month. Efforts involve weekend shutdown of internal environments, upgrades of EC2 machines and automated termination of idle resources etc.
                          </li>
-                         <li><a href="#">Provisioning of Athena workgroup:</a>
-                          Provisioning of Athena workgroups, each with different access levels different user types, to get better Athena cost distribution between teams, applications and ad-choc usage
+                         <li><a href="#">Version Controlled AWS Resource Provisioning:</a>
+                          Provisioning of Automated, version controlled and peer-reviewed process of AWS resource creation using terraform and 3rd party tool named Atlantis
+                         </li>
+                         <li><a href="#">Build Pipeline Provisioning:</a>
+                          Setup full CI/CD pipelines for all supported clouds so that each commit will go through standard process of software lifecycle and gets tested well enough before it can make it to the production.
                         </li>
+                        <li><a href="#">Release Cycle Responsibilities:</a>
+                         Work closely with release managers and QA engineers in all the major releases for all clouds. Responsibilities includes providing stable infrastructure, delivering first draft of artifacts, assistance with any bottleneck and listing possible improvements to address before next major releases.
+                       </li>
+
                        </ul>
                        <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
                        <ul class="list-inline">
